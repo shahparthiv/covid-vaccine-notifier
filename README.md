@@ -4,6 +4,6 @@ I have used go lang to call the API and GitHub actions to run this script period
 
 I have used push notifications as I have one android app to receive the notification. You can simply change the `sendPush` function to send the notification on email as well.
 
-I have used the GitHub action to call this script every 5 mins. Please check .github/workflows/vaccine-notifier.yml to understand the GitHub action.
+I have used the GitHub action to call this script every 5 mins. Please check `.github/workflows/vaccine-notifier.yml` to understand the GitHub action.
 
-If you want to use this code then clone it replace the Pincode variable and update the sendPush function as per your need to receive the notification.
+If you want to use this code then clone it replace the `Pincode` variable and update the `sendPush` function as per your need to receive the notification.
