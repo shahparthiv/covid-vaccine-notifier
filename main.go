@@ -72,7 +72,7 @@ func main() {
 	}
 	var responseObject Cowin
 	json.Unmarshal(bodyBytes, &responseObject)
-	fmt.Println(responseObject.Centers[0].CenterID)
+	
 
 	var b bytes.Buffer
 	flag := false
