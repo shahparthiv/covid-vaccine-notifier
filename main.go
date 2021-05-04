@@ -43,8 +43,8 @@ func main() {
 	authToken := os.Args[2]
 
 	client := &http.Client{}
-	pincode := "382225"   //382225
-	minimumAgeLimit := 45 // 18 or 45
+	pincode := "380015"   //382225
+	minimumAgeLimit := 18 // 18 or 45
 
 	loc, _ := time.LoadLocation("Asia/Kolkata")
 
