@@ -5,13 +5,13 @@ name: Vaccine Notifier
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
-  #push:
-  #  branches: [ main ]
+  push:
+    branches: [ main ]
   #pull_request:
   #  branches: [ main ]
-  schedule:
+  #schedule:
   # original time is 0 8,10,12,13,16,18,20,22 * * * I have. converted it to UTC
-   - cron: '10 * * * *'
+  # - cron: '10 * * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
